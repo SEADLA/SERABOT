@@ -74,7 +74,10 @@ client.on('guildMemberRemove', member => {
           };
           if(confirm) {
             message.delete()
-            return message.channel.send("Saya mencium aroma BadWords , Nakal!!")
+            const bw = new Discord.MessageEmbed()
+              .setColor("RED")
+              .setDescription(`${message.author}, Hey that is a bad word!!`)
+            return message.channel.send(bw)
           };
         };   
         
