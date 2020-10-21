@@ -36,7 +36,7 @@ client.on('guildMemberRemove', member => {
             .setDescription(`\n\n**Name:** ${member.user.tag} \n\n**UserId:** ${member.id} \n\n**membercount:** *#${member.guild.memberCount}*`)
             .setColor('#0099ff')
             .setThumbnail('https://www.animatedimages.org/data/media/1226/animated-goodbye-image-0014.gif')
-            .setFooter('Bot versi 0.1 beta. Create since 10/10/2020');
+            .setFooter('Bot versi 0.1 beta. Create since 15/9/2020');
   
         channel.send(goodbye)
     });
@@ -50,7 +50,7 @@ client.on('guildMemberRemove', member => {
               .setDescription(`\n\n**Name:** @${member.user.tag} \n\n**UserId:** ${member.id} \n\n**Member Count:** *#${member.guild.memberCount}*`)
               .setColor('#0099ff')
               .setThumbnail('https://lh3.googleusercontent.com/proxy/oMcBHwRk3DKwri4CllptUMqinTvbKA-6pVu_gRnSk30phcE62a08Hjji4wDe3Eo_A-yPMNOsQvU_xrXLRonZeT1oV9K_nma0H5L3nwIRGUapkqFQqQ')
-              .setFooter('Bot versi 0.1 beta. Create since 10/10/2020');
+              .setFooter('Bot versi 0.1 beta. Create since 15/9/2020');
   
           channel.send(welcome)
 
